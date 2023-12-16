@@ -17,9 +17,9 @@ int main(){
     scanf("%d",&array1[i]);
    }
    for(int i=0; i<5; i++){//content store in result array
-    sumOfArray[i]=array[i]*array1[i];//i change the oparator addittion to multiplication now the array is multipling and store the result
+    sumOfArray[i]=array[i]+array1[i];//i change the oparator addittion to multiplication now the array is multipling and store the result
 
-    printf("The multiplication of the index %d =%d\n", i,sumOfArray[i]);//print the result
+    printf("The sum of the index %d =%d\n", i,sumOfArray[i]);//print the result
    }
 
 
