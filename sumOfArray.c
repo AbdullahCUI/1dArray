@@ -9,9 +9,11 @@ int main(){
    sumOfArray[5];//resutl'n array
 
    for(int i=0; i<5; i++){ //first number index and storing content in first array
+    printf("Enter the first array content:");
     scanf("%d",&array[i]);
    }
    for(int i=0; i<5; i++){ //contnt store in second array
+    printf("Enter the second array content:");
     scanf("%d",&array1[i]);
    }
    for(int i=0; i<5; i++){//content store in result array
